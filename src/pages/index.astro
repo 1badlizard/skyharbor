@@ -1,22 +1,45 @@
----
-
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
----
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-				<h1>Hello Selection Committee Member!</h1>
-			<p>
-				With your selection of Sky Harbor Holdings, LLC, as Gillespie Field's newest master leaseholder, this will be the future site of Sky Habor Hangars.
-				We greatly appreciate your evaluating our porposal and finding your way to this website.
-			</p>		
-		</main>
-		<Footer />
-	</body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sky Harbor Hangars</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+
+    .logo {
+      max-width: 300px;
+      margin-bottom: 30px;
+    }
+
+    .message {
+      font-size: 1.25rem;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Sky Harbor Holdings Logo" class="logo" />
+  <div class="message">
+    <p>
+      Thank you for visiting. We're honored that you've taken the time to learn more about our proposal for the Sky Harbor Hangars leasehold.
+    </p>
+    <p>
+      Your thoughtful consideration means a great deal to us, and we appreciate your dedication to the future of Gillespie Field and general aviation in San Diego County.
+    </p>
+  </div>
+</body>
 </html>
